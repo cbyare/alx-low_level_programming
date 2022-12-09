@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (c = 0; c < 100; c++)
 		{
-			if (c < numbers)
+			if (numbers < c)
 			{
 				putchar((numbers / 10) + 48);
 				putchar((numbers % 10) + 48);
